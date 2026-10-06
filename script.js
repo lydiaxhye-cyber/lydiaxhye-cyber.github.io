@@ -2,9 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /* PAGE LOADER */
 const pageLoader = document.getElementById("pageLoader");
-document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(() => { pageLoader?.classList.add("done"); }, 300);
-});
+
+setTimeout(() => {
+    pageLoader?.classList.add("done");
+}, 300);
 
 /* LANGUAGE */
 const languageToggle = document.getElementById("languageToggle");
