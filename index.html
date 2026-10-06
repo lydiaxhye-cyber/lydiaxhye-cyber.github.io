@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lydia Ye — Interaction Designer · Selected Works</title>
+<meta name="description" content="Lydia Ye — Interaction Designer specialised in VR mental health, mobile products and data-driven systems. University of Sydney.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page-loader" id="pageLoader">
+    <div class="loader-inner">
+        <div class="loader-logo">LY</div>
+        <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+        <div class="loader-text">Loading portfolio</div>
+    </div>
+</div>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"><span class="cursor-label"></span></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header class="site-header" id="siteHeader">
+    <a href="#top" class="brand" data-cursor="home">
+        <span class="brand-mark">LY</span>
+        <span class="brand-name">Lydia Ye</span>
+    </a>
+    <nav class="main-nav">
+        <a href="#profile" data-en="Profile" data-zh="个人资料">Profile</a>
+        <a href="#work" data-en="Work" data-zh="作品">Work</a>
+        <a href="#gallery" data-en="Gallery" data-zh="画廊">Gallery</a>
+        <a href="#skills" data-en="Skills" data-zh="技能">Skills</a>
+        <a href="#contact" data-en="Contact" data-zh="联系">Contact</a>
+    </nav>
+    <div class="header-actions">
+        <a href="XinhuiYe_InteractionDesigner_Resume.pdf" class="resume-btn" download
+           data-en="Download CV" data-zh="下载简历" data-cursor="download">Download CV</a>
+        <button class="language-switch" id="languageToggle" type="button" aria-label="Switch language">
+            <span class="language-option" data-language="en">EN</span>
+            <span aria-hidden="true">/</span>
+            <span class="language-option" data-language="zh">中</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu">
+            <span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+    <nav>
+        <a href="#profile" data-en="Profile" data-zh="个人资料">Profile</a>
+        <a href="#work" data-en="Work" data-zh="作品">Work</a>
+        <a href="#gallery" data-en="Gallery" data-zh="画廊">Gallery</a>
+        <a href="#skills" data-en="Skills" data-zh="技能">Skills</a>
+        <a href="#contact" data-en="Contact" data-zh="联系">Contact</a>
+    </nav>
+    <div class="mobile-menu-bottom">
+        <span>Interaction Designer</span>
+        <span>Sydney · Australia</span>
+    </div>
+</div>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-stars"></div>
+
+    <div class="hero-top">
+        <div class="hero-corner hero-corner-left">
+            <span class="hero-corner-label">— INTERACTION DESIGNER</span>
+            <span class="hero-corner-sub">Sydney · Australia</span>
+        </div>
+        <div class="hero-corner hero-corner-right">
+            <span class="hero-corner-label">LYDIA YE —</span>
+            <span class="hero-corner-sub">Portfolio · 2026</span>
+        </div>
+    </div>
+
+    <div class="hero-center">
+        <div class="hero-sphere">
+            <div class="sphere-inner"></div>
+            <div class="sphere-glow"></div>
+        </div>
+
+        <div class="hero-title">
+            <span class="hero-title-top">LYDIA YE</span>
+            <h1 class="hero-title-main">INTERACTION</h1>
+            <span class="hero-title-sub">DESIGNER</span>
+        </div>
+    </div>
+
+    <div class="hero-bottom">
+        <div class="hero-meta-left">
+            <span class="hero-num">01</span>
+            <span class="hero-num-line"></span>
+            <span class="hero-num-label">DESIGNER STATEMENT</span>
+            <p class="hero-num-desc"
+               data-en="I design interactions that respect people's attention, time and emotions. From VR safe spaces for social anxiety to 21-day habit systems, my work turns research into something you can actually use — and every decision is backed by real user data."
+               data-zh="我设计的交互尊重人的注意力、时间与情绪。从为社交焦虑设计的 VR 安全空间，到 21 天习惯养成系统，我的作品把研究转化为真正可用的东西——每一个决策都有真实用户数据的支撑。">
+                I design interactions that respect people's attention, time and emotions. From VR safe spaces for social anxiety to 21-day habit systems, my work turns research into something you can actually use — and every decision is backed by real user data.
+            </p>
+            <a href="#work" class="hero-cta magnetic" data-cursor="view">
+                <span data-en="View selected works" data-zh="查看精选作品">View selected works</span>
+                <span>→</span>
+            </a>
+        </div>
+
+        <div class="hero-meta-right">
+            <a href="#contact" class="hero-play" data-cursor="mail">
+                <span class="play-circle">▶</span>
+                <span class="play-label" data-en="GET IN TOUCH" data-zh="联系我">GET IN TOUCH</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-hint">
+        <span data-en="Scroll" data-zh="滚动">Scroll</span>
+        <div class="hero-hint-line"></div>
+        <span>01 / 05</span>
+    </div>
+</section>
+
+<!-- PROFILE -->
+<section class="profile-section" id="profile">
+    <div class="profile-inner">
+        <div class="profile-head">
+            <span class="profile-kicker">— PROFILE</span>
+            <h2 class="profile-title">
+                <span data-en="Hello, I'm" data-zh="你好，我是">Hello, I'm</span>
+                <span class="profile-title-italic">Lydia Ye</span>
+            </h2>
+        </div>
+
+        <div class="profile-grid">
+            <div class="profile-photo">
+                <img src="images/images-protrait.png" alt="Lydia Ye portrait">
+                <div class="profile-photo-placeholder">
+                    <span>LY</span>
+                    <small data-en="Portrait · images/protrait.png" data-zh="头像 · images/protrait.png">Portrait · images/protrait.png</small>
+                </div>
+            </div>
+
+            <div class="profile-bio">
+                <p class="profile-bio-lead"
+                   data-en="I'm a Creative Interaction Designer with hands-on experience in user-centric design, 3D prototyping and cross-functional delivery. Currently in my final year of Interaction Design at the University of Sydney."
+                   data-zh="我是一名创意交互设计师，拥有以用户为中心的设计、3D 原型与跨职能交付经验。目前在悉尼大学交互设计专业就读最后一年。">
+                    I'm a Creative Interaction Designer with hands-on experience in user-centric design, 3D prototyping and cross-functional delivery. Currently in my final year of Interaction Design at the University of Sydney.
+                </p>
+                <p data-en="I work across the full product cycle — from user research and journey mapping to high-fidelity Figma prototypes and tested design systems. My projects span VR mental health, mobile habit-building, and physical product design."
+                   data-zh="我参与完整的产品周期——从用户研究与旅程图，到高保真 Figma 原型与经过测试的设计系统。我的项目涵盖 VR 心理健康、移动习惯养成与实体产品设计。">
+                    I work across the full product cycle — from user research and journey mapping to high-fidelity Figma prototypes and tested design systems. My projects span VR mental health, mobile habit-building, and physical product design.
+                </p>
+                <a href="XinhuiYe_InteractionDesigner_Resume.pdf" class="profile-cta magnetic" download data-cursor="download">
+                    <span data-en="Download CV" data-zh="下载简历">Download CV</span>
+                    <span>↓</span>
+                </a>
+            </div>
+
+            <div class="profile-facts">
+                <div class="profile-fact">
+                    <span class="pf-label" data-en="Name" data-zh="姓名">Name</span>
+                    <span class="pf-value">Lydia Ye · 叶馨慧</span>
+                </div>
+                <div class="profile-fact">
+                    <span class="pf-label" data-en="Based in" data-zh="所在地">Based in</span>
+                    <span class="pf-value">Sydney, Australia</span>
+                </div>
+                <div class="profile-fact">
+                    <span class="pf-label" data-en="Education" data-zh="教育">Education</span>
+                    <span class="pf-value">University of Sydney · Interaction Design</span>
+                </div>
+                <div class="profile-fact">
+                    <span class="pf-label" data-en="Languages" data-zh="语言">Languages</span>
+                    <span class="pf-value">English · Mandarin</span>
+                </div>
+                <div class="profile-fact">
+                    <span class="pf-label" data-en="Focus" data-zh="专注">Focus</span>
+                    <span class="pf-value">VR · Mobile · Figma · Unity· 3D</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-skills">
+            <span class="profile-skills-label" data-en="Tools & skills" data-zh="工具与技能">Tools & skills</span>
+            <div class="profile-skills-list">
+                <span>Figma</span>
+                <span>Blender</span>
+                <span>Unity</span>
+                <span>Fusion 360</span>
+                <span>HTML / CSS / JS</span>
+                <span>Adobe Creative Suite</span>
+                <span>User Research</span>
+                <span>Market research</span>
+                <span>3D Printing</span>
+                <span>Design & Prototyping</span>
+                <span>Laser Cutting</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WORK -->
+<section class="work-section" id="work">
+    <div class="work-intro">
+        <span class="work-kicker">— SELECTED WORKS</span>
+        <h2 class="work-title">
+            <span data-en="Five projects." data-zh="五个项目。">Five projects.</span>
+            <span class="work-title-italic" data-en="One narrative." data-zh="一种叙事。">One narrative.</span>
+        </h2>
+        <p class="work-sub"
+           data-en="Each told through the same structure: Context → Research → Iterations → Final → Reflection."
+           data-zh="每个项目都以同样的结构展开：背景 → 研究 → 迭代 → 最终输出 → 总结。">
+            Each told through the same structure: Context → Research → Iterations → Final → Reflection.
+        </p>
+    </div>
+
+    <div class="work-orbit-wrapper">
+        <div class="work-orbit">
+            <article class="work-orbit-card" data-project="fitfan" data-cursor="view" style="--angle:0deg">
+                <span class="woc-num">01</span>
+                <span class="woc-cat">Mobile / Data Viz</span>
+                <h3 class="woc-title">FitFan</h3>
+                <span class="woc-line" data-en="Personalised Olympic Fan Platform" data-zh="个性化奥运粉丝平台">Personalised Olympic Fan Platform</span>
+            </article>
+
+            <article class="work-orbit-card" data-project="mindscape" data-cursor="view" style="--angle:72deg">
+                <span class="woc-num">02</span>
+                <span class="woc-cat">VR / Mental Health</span>
+                <h3 class="woc-title">Mindscape</h3>
+                <span class="woc-line" data-en="VR Safe Space for Social Anxiety" data-zh="为社交焦虑设计的 VR 安全空间">VR Safe Space for Social Anxiety</span>
+            </article>
+
+            <article class="work-orbit-card" data-project="petready" data-cursor="view" style="--angle:144deg">
+                <span class="woc-num">03</span>
+                <span class="woc-cat">Mobile / Habit Design</span>
+                <h3 class="woc-title">PetReady 21</h3>
+                <span class="woc-line" data-en="21-Day Guided Habit App" data-zh="21 天引导式习惯 App">21-Day Guided Habit App</span>
+            </article>
+
+            <article class="work-orbit-card" data-project="petcarepal" data-cursor="view" style="--angle:216deg">
+                <span class="woc-num">04</span>
+                <span class="woc-cat">Mobile / Service</span>
+                <h3 class="woc-title">PetCarePal</h3>
+                <span class="woc-line" data-en="A Mobile App for First-Time Pet Owners" data-zh="为首次养宠者设计的移动应用">A Mobile App for First-Time Pet Owners</span>
+            </article>
+
+            <article class="work-orbit-card" data-project="hermes" data-cursor="view" style="--angle:288deg">
+                <span class="woc-num">05</span>
+                <span class="woc-cat">3D / Laser Cutting</span>
+                <h3 class="woc-title">Diamond &amp; Heart</h3>
+                <span class="woc-line" data-en="3D Print & Laser Cut" data-zh="3D 打印与激光切割">3D Print & Laser Cut</span>
+            </article>
+        </div>
+
+        <div class="work-orbit-center">
+            <span class="woc-center-top">SELECTED</span>
+            <span class="woc-center-main">WORKS</span>
+            
+        </div>
+    </div>
+
+    <div class="work-grid">
+        <article class="work-card" data-project="fitfan" data-cursor="view">
+            <div class="work-card-media">
+                <img src="images/fitfan--hero.png" alt="FitFan">
+                <div class="work-card-fallback">FitFan<br><small>images/fitfan-hero.png</small></div>
+                <span class="work-card-tag">01 · Mobile / Data Viz</span>
+            </div>
+            <div class="work-card-info">
+                <h3>FitFan</h3>
+                <span data-en="Personalised Olympic Fan Platform" data-zh="个性化奥运粉丝平台">Personalised Olympic Fan Platform</span>
+            </div>
+        </article>
+
+        <article class="work-card" data-project="mindscape" data-cursor="view">
+            <div class="work-card-media">
+                <img src="images/mindscape-hero.png" alt="Mindscape">
+                <div class="work-card-fallback">Mindscape<br><small>images/mindscape-hero.png</small></div>
+                <span class="work-card-tag">02 · VR / Mental Health</span>
+            </div>
+            <div class="work-card-info">
+                <h3> SanctUary</h3>
+                <span data-en="VR Safe Space for Social Anxiety" data-zh="为社交焦虑设计的 VR 安全空间">VR Safe Space for Social Anxiety</span>
+            </div>
+        </article>
+
+        <article class="work-card" data-project="petready" data-cursor="view">
+            <div class="work-card-media">
+                <img src="images/petready-hero.png" alt="PetReady 21">
+                <div class="work-card-fallback">PetReady 21<br><small>images/petready-hero.png</small></div>
+                <span class="work-card-tag">03 · Mobile / Habit Design</span>
+            </div>
+            <div class="work-card-info">
+                <h3>PetReady 21</h3>
+                <span data-en="21-Day Guided Habit App" data-zh="21 天引导式习惯 App">21-Day Guided Habit App</span>
+            </div>
+        </article>
+
+        <article class="work-card" data-project="petcarepal" data-cursor="view">
+            <div class="work-card-media">
+                <img src="images/petcarepal-hero.png" alt="PetCarePal">
+                <div class="work-card-fallback">PetCarePal<br><small>images/petcarepal-hero.png</small></div>
+                <span class="work-card-tag">04 · Mobile / Service</span>
+            </div>
+            <div class="work-card-info">
+                <h3>PetCarePal / PetTalk</h3>
+                <span data-en="A Mobile App for First-Time Pet Owners" data-zh="为首次养宠者设计的移动应用">A Mobile App for First-Time Pet Owners</span>
+            </div>
+        </article>
+
+        <article class="work-card" data-project="hermes" data-cursor="view">
+            <div class="work-card-media">
+                <img src="images/hermes-hero.png" alt="Diamond & Heart">
+                <div class="work-card-fallback">Diamond &amp; Heart<br><small>images/hermes-hero.png</small></div>
+                <span class="work-card-tag">05 · 3D / Laser Cutting</span>
+            </div>
+            <div class="work-card-info">
+                <h3>Diamond &amp; Heart</h3>
+                <span data-en="3D Print & Laser Cut" data-zh="3D 打印与激光切割">3D Print & Laser Cut</span>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section" id="gallery">
+    <div class="gallery-inner">
+        <div class="gallery-head">
+            <span class="gallery-kicker">— GALLERY</span>
+            <h2 class="gallery-title" data-en="Sketches & side work" data-zh="手绘与日常创作">Sketches &amp; side work</h2>
+            <span class="gallery-line"></span>
+            <h3 class="gallery-subtitle" data-en="Beyond the screen" data-zh="屏幕之外的角落">Beyond the screen</h3>
+            <p class="gallery-desc"
+               data-en="Drawings, paintings and side sketches made between projects — a quieter place where I think with my hands instead of pixels. Scroll sideways to wander through."
+               data-zh="在项目之间画下的草图、插画和随笔——一个用手而不是像素思考的安静角落。左右滑动，随意漫游。">
+                Drawings, paintings and side sketches made between projects — a quieter place where I think with my hands instead of pixels. Scroll sideways to wander through.
+            </p>
+            <button class="gallery-more" id="galleryOpenAll" type="button" data-en="See all works →" data-zh="查看全部作品 →">See all works →</button>
+        </div>
+
+        <!-- 图片横向无缝滚动区 -->
+        <div class="gallery-track" id="galleryTrack">
+            <div class="gallery-item"><img src="images/gallery-1.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-2.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-3.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-4.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-5.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-6.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-7.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-8.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-9.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-10.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-11.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-12.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-13.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-14.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-15.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-16.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-17.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-18.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-19.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-20.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-21.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-22.png" alt=""></div>
+            <div class="gallery-item"><img src="images/gallery-24.png" alt=""></div>
+            
+        </div>
+    </div>
+</section>
+
+<dialog class="gallery-archive" id="galleryArchive" aria-labelledby="galleryArchiveTitle">
+    <header class="gallery-archive-header">
+        <div>
+            <span class="gallery-archive-kicker">— GALLERY / Poster</span>
+            <h2 id="galleryArchiveTitle" data-en="Sketches & side work" data-zh="手绘与日常创作">Sketches &amp; side work</h2>
+        </div>
+        <button class="gallery-archive-close" type="button" aria-label="Close gallery">×</button>
+    </header>
+    <div class="gallery-archive-grid" id="galleryArchiveGrid"></div>
+    <section class="gallery-art-viewer" id="galleryArtViewer" aria-label="Artwork viewer" hidden>
+        <button class="gallery-art-back" type="button" data-en="← All works" data-zh="← 返回全部作品">← All works</button>
+        <div class="gallery-art-stage">
+            <button class="gallery-art-nav gallery-art-prev" type="button" aria-label="Previous artwork">←</button>
+            <figure>
+                <img id="galleryArtImage" alt="">
+                <div class="gallery-art-fallback" id="galleryArtFallback" hidden></div>
+                <figcaption id="galleryArtCaption"></figcaption>
+            </figure>
+            <button class="gallery-art-nav gallery-art-next" type="button" aria-label="Next artwork">→</button>
+        </div>
+    </section>
+</dialog>
+
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+    <div class="skills-inner">
+        <span class="skills-kicker">— TOOLKIT</span>
+        <h2 class="skills-title">
+            <span data-en="Skills & tools." data-zh="技能与工具。">Skills &amp; tools.</span>
+            <span class="skills-title-italic" data-en="What I work with." data-zh="我使用的东西。">What I work with.</span>
+        </h2>
+
+        <div class="skills-list">
+            <div class="skill-row">
+                <span class="skill-num">01</span>
+                <span class="skill-name" data-en="Interaction Design" data-zh="交互设计">Interaction Design</span>
+                <span class="skill-desc" data-en="UX / UI / Motion" data-zh="用户体验 / 界面 / 动效">UX / UI / Motion</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-num">02</span>
+                <span class="skill-name" data-en="User Research" data-zh="用户研究">User Research</span>
+                <span class="skill-desc" data-en="Interview / Testing / IPQ" data-zh="访谈 / 测试 / IPQ">Interview / Testing / IPQ</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-num">03</span>
+                <span class="skill-name" data-en="Prototyping" data-zh="原型制作">Prototyping</span>
+                <span class="skill-desc" data-en="Figma / Wireframe" data-zh="Figma / Wireframe">Figma / Wireframe</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-num">04</span>
+                <span class="skill-name" data-en="3D & VR" data-zh="3D 与 VR">3D &amp; VR</span>
+                <span class="skill-desc" data-en="Blender / Unity / Fusion 360" data-zh="Blender / Unity / Fusion 360">Blender / Unity / Fusion 360</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-num">05</span>
+                <span class="skill-name" data-en="Creative Coding" data-zh="创意编程">Creative Coding</span>
+                <span class="skill-desc" data-en="HTML / CSS / JS / Visual Studio Code" data-zh="HTML / CSS / JS">HTML / CSS / JS</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-num">06</span>
+                <span class="skill-name" data-en="Physical Making" data-zh="实体制作">Physical Making</span>
+                <span class="skill-desc" data-en="3D Printing / Laser Cutting" data-zh="3D 打印 / 激光切割">3D Printing / Laser Cutting</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+    <div class="contact-inner">
+        <span class="contact-kicker">— GET IN TOUCH</span>
+        <h2 class="contact-title">
+            <span data-en="Have a problem" data-zh="有个值得解决的">Have a problem</span>
+            <span class="contact-title-italic" data-en="worth solving?" data-zh="问题吗？">worth solving?</span>
+        </h2>
+        <div class="contact-links">
+            <a href="mailto:lydiaxhye@gmail.com" class="contact-link" data-cursor="mail">
+                <span>lydiaxhye@gmail.com</span>
+                <span>↗</span>
+            </a>
+            <a href="tel:+61451821820" class="contact-link" data-cursor="mail">
+                <span>+61 451 821 820</span>
+                <span>↗</span>
+            </a>
+        </div>
+        <div class="footer-row">
+            <span>© 2026 Lydia Ye</span>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/xinhui-ye-6168922b6/" target="_blank" data-cursor="link">LinkedIn</a>
+                <a href="https://www.instagram.com/lydia_yxh/" target="_blank" data-cursor="link">Instagram</a>
+                <a href="#top" data-cursor="top">Back to top ↑</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<div class="case-overlay" id="caseOverlay"></div>
+<aside class="case-panel" id="casePanel">
+    <div class="case-panel-header">
+        <div class="case-header-left">
+            <span class="case-number" id="caseNumber">01</span>
+            <span class="case-category" id="caseCategory">Mobile / Data Viz</span>
+        </div>
+        <div class="case-header-right">
+            <button class="case-nav-btn" id="casePrev" aria-label="Previous case">←</button>
+            <button class="case-nav-btn" id="caseNext" aria-label="Next case">→</button>
+            <button class="case-close" id="caseClose" type="button" aria-label="Close case study">
+                <span></span><span></span>
+            </button>
+        </div>
+    </div>
+    <div class="case-progress"><div class="case-progress-fill" id="caseProgressFill"></div></div>
+    <div class="case-content" id="caseContent"></div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
