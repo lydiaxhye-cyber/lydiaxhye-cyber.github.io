@@ -311,7 +311,7 @@ const projectData = {
         title: "FitFan",
         kicker: { en: "A Personalised Platform for Olympic Fans", zh: "为奥运粉丝打造的个性化平台" },
         summary: {
-            en: "A personalised Olympic fan platform that closes the gap between event highlights and athletes' everyday lives. Athlete profiles, recipes, training plans, live notifications and a companion watch app, all in one place.",
+            en: "A personalised Olympic fan platform that bridges the gap between event highlights and athletes' everyday lives. Athlete profiles, recipes, training plans, live notifications and a companion watch app, all in one place.",
             zh: "一个为奥运粉丝打造的个性化平台，拉近赛事高光与运动员日常生活之间的距离。运动员资料、食谱、训练计划、实时通知以及配套手表 App，全都整合在一起。"
         },
         metricsBig: [
@@ -359,9 +359,6 @@ const projectData = {
             "images/fitfan-journey-2.png",
             "images/fitfan-journey-3.png"
         ],
-         
-
-        // 默认两张图：fitfan-final-1.png, fitfan-final-2.png
         iterations: [
             { label: "Prototype A", title: { en: "Merged schedule and social", zh: "赛程与社交合并" }, desc: { en: "The first version put the athlete's schedule and social posts on a single page. Usability testing exposed a serious navigation problem: testers scrolled endlessly, lost their place, and couldn't tell whether they were looking at schedule or social content. Pain points included 'I wasn't sure which link to click' and 'the sections are combined and it confuses me'.", zh: "第一版把运动员赛程和社交帖子放在同一页。可用性测试暴露出严重的导航问题：测试者不停滚动、找不到位置，也分不清自己在看赛程还是社交内容。痛点包括「我不确定该点哪个链接」以及「板块合在一起让我很困惑」。" } },
             { label: "Prototype B", title: { en: "Split into two swipeable pages", zh: "拆分为两个可滑动页面" }, desc: { en: "The second version split schedule and social into two swipeable pages. Navigation improved significantly. Testing still flagged some missing features, though: recipe filters by cuisine and meal time, a login page, and a weekly schedule view. Testers also wanted more customisation options and a clearer main screen for following more athletes.", zh: "第二版将赛程和社交拆分为两个可左右滑动的页面，导航体验明显改善。不过测试仍然指出一些缺失的功能：按菜系和用餐时段筛选食谱、登录页、每周赛程视图。测试者还希望有更多自定义选项，以及一个更清晰的主屏，用于关注更多运动员。" } },
@@ -530,7 +527,6 @@ const projectData = {
             "images/petready-iteration-2.png",
             "images/petready-iteration-3.png"
         ],
-        // 👇 PetReady 的三张图，与 fitfan 一样纵向铺满
         finalImages: [
             "images/petready-final-1.png",
             "images/petready-final-2.png"
@@ -615,7 +611,6 @@ const projectData = {
             "images/petcarepal-iteration-2.png",
             "images/petcarepal-iteration-3.png"
         ],
-        // 👇 PetCarePal 的三张图，与 fitfan 一样纵向铺满
         finalImages: [
             "images/petcarepal-final-1.png",
             "images/petcarepal-final-2.png",
@@ -682,7 +677,7 @@ const projectData = {
         },
         sketches: {
             en: "The design process followed six stages: identifying needs, concept development, research, design optimisation, evaluation and further improvement. We used the mirror tool in Fusion 360 to guarantee left-right symmetry for the heart shape. Sketches explored multiple heart and diamond iterations. The heart shape was drawn using the mirror tool in Create Sketch: draw the left half with the Line and Spline tools, then mirror to the right. Circles were drawn with Center Diameter Circle. Irregular shapes used Rectangle plus Trim. Rectangles used the 2-point rectangle, then blender at the end.",
-            zh: "设计流程遵循六个阶段：识别需求、概念发展、研究、设计优化、评估和进一步改进。我们使用 Fusion 360 的镜像工具确保心形的左右对称。草图探索了多个心形和钻石的迭代版本。心形使用 Create Sketch 里的镜像工具绘制：用直线和样条工具画出左半边，然后镜像到右边。圆形使用中心直径圆绘制。不规则形状使用矩形加修剪。矩形则使用两点矩形,最后全部结束了完成渲染。"
+            zh: "设计流程遵循六个阶段：识别需求、概念发展、研究、设计优化、评估和进一步改进。我们使用 Fusion 360 的镜像工具确保心形的左右对称。草图探索了多个心形和钻石的迭代版本。心形使用 Create Sketch 里的镜像工具绘制：用直线和样条工具画出左半边，然后镜像到右边。圆形使用中心直径圆绘制。不规则形状使用矩形加修剪。矩形则使用两点矩形，最后进行渲染输出。"
         },
         sketchImages: [
             "images/hermes-sketch-1.png",
@@ -692,7 +687,6 @@ const projectData = {
             "images/hermes-sketch-5.png",
             "images/hermes-sketch-6.png"
         ],
-        // 👇 Hermes 保持单张海报图，绝不乱改（只有 1 张）
         finalImages: [
             "images/hermes-final-1.png"
         ],
