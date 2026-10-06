@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /* PAGE LOADER */
 const pageLoader = document.getElementById("pageLoader");
-window.addEventListener("load", () => {
-    setTimeout(() => { pageLoader?.classList.add("done"); }, 1200);
+document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => { pageLoader?.classList.add("done"); }, 300);
 });
 
 /* LANGUAGE */
