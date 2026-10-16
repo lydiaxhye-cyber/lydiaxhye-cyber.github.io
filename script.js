@@ -552,7 +552,7 @@ const projectData = {
             en: "The concept solves a real problem, but the first prototype failed on information hierarchy. The biggest lesson: a good idea is not enough. Users need clear structure and immediate feedback. The energy-based scheduler was the strongest feature because it adapts to real life, not the other way around. The 21-day achievement system worked as motivation, but the connection between daily tasks and achievements needed to be stronger. Next steps: simplify the information architecture, redesign interactive elements, prioritise core task support over ancillary features, and integrate external resources like foster networks and temporary care services in future iterations.",
             zh: "这个概念解决了真实问题，但第一版原型在信息层级上失败了。最大的收获是：好想法本身不够，用户需要清晰的结构和即时的反馈。能量排程是最强的功能，因为它适应真实生活，而不是反过来。21 天成就系统确实起到了激励作用，但每日任务和成就之间的关联需要更强。下一步：简化信息架构、重新设计交互元素、优先支持核心任务而不是辅助功能，并在未来迭代中接入寄养网络和临时护理服务等外部资源。"
         },
-        demoLink: "https://www.figma.com/proto/AbTdWDE234a0Qo5kKcxnDL/pet-ready-21?node-id=1049-4560&starting-point-node-id=974%3A5726",
+        demoLink: "https://www.figma.com/proto/oTvP3i9XgAdzOE4SsucE7c/PetReady21?node-id=1-587&p=f&t=vd5h42K3y0y0TzWs-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A634&show-proto-sidebar=1",
         hasPhone: true,
         phoneImage: "images/petready-phone.png"
     },
