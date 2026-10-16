@@ -380,7 +380,7 @@ const projectData = {
             en: "Hierarchy is an interaction decision. From 19 ideas down to four core features, and from a merged layout to two split pages, every iteration solved a specific behavioural problem. The biggest lesson: users don't want more content, they want clearer structure. Splitting one confusing page into two simple ones did more for engagement than adding any new feature would have. Future improvements include more customisation options for notifications and home screen layout, and expanding the recipe-sharing community.",
             zh: "信息层级本身就是交互设计的一部分。从 19 个想法收敛到四个核心功能，从合并布局拆成两个页面，每一次迭代都在解决一个具体的行为问题。最大的收获是：用户要的不是更多内容，而是更清晰的结构。把一个令人困惑的页面拆成两个简单的页面，对参与度的提升胜过增加任何新功能。未来我们会增加更多通知和主屏自定义选项，并扩展食谱分享社区。"
         },
-        demoLink: "https://www.figma.com/proto/PWJnNTMLgXI0tHPwarWp3S/FitFan-Final?node-id=1-1598&starting-point-node-id=1%3A1598",
+        demoLink: "https://www.figma.com/proto/qcdpbGMSlMbKF4t94bWtdA/FitFan?node-id=31-35324&t=tmuU9hYmQYtU0fvU-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=31%3A35324&show-proto-sidebar=1",
         hasPhone: true,
         phoneImage: "images/fitfan-phone.png"
     },
